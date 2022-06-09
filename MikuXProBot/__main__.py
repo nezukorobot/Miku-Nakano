@@ -13,7 +13,6 @@ from typing import Optional
 from pyrogram import Client, idle, filters
 
 import MikuXProBot.modules.sql.users_sql as sql
-from MikuXProBot.utils.sudoers import bot_sys_stats as bss
 
 from MikuXProBot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
